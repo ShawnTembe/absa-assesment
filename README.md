@@ -1,13 +1,13 @@
 # absa-assesment
 
 Install the packages
-    npm install
+   - npm install
     or
-    npm i
+   - npm i
 
 Run project
-    ng serve
-    ng serve -o --ssl true --configuration production
+   - ng serve
+   - ng serve -o --ssl true --configuration production
 
 
 # To save time i would have used Bootstrap or Material to save time and make more appealing
