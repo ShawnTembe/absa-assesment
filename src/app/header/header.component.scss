@@ -1,0 +1,79 @@
+header {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    background-color: #0090FF;
+    color: #FFF;
+    width: 100%;
+    clear: both;
+    height: 90px;
+    .nav {
+        padding: 1em;
+        width: 60%;
+        float: left;
+        a {
+            color: #fff;
+        }
+
+        .logo {
+            font-size: 2em;
+            font-weight: bold;
+            display: inline-block;
+            clear:right;
+            margin-top: 15px;
+        }
+       
+    }
+
+    .nav-links {
+        margin-top: 20px;
+        float: right;
+        color: #fff;
+
+        .login {
+            display: inline-block;
+            clear:right;
+            margin-right: 15px;
+            margin-top: 15px;
+
+            a {
+                text-decoration:none;
+                color:#FFF;
+                font-weight: bold;
+            }
+        }
+
+        .start-free-trail {
+            float: right;
+           
+            button {
+                border: none;
+                padding: .75em;
+                color: #FFF;
+                font-size: 1em;
+                background-color: #333; 
+                margin-right: 15px;
+
+            }
+        }
+        ul {
+            padding-left:15px;
+            list-style: none;
+            text-decoration: none;
+
+            li {
+                list-style: none;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.heading {
+    background-color: #333;
+    background-image: linear-gradient(#222, #333, #555);
+
+    h1 {
+        padding: .5em .5em;
+        margin: 0em;
+    }
+
+}

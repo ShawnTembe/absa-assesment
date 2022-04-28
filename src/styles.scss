@@ -1,0 +1,21 @@
+html, body {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #333;
+    
+    #wrapper {
+        position: relative;
+        width: 100%;
+        margin: 0em auto;
+        padding: 0em;
+        font-family: Raleway;
+        background-color: #333;
+        padding-top: 30px;
+    }
+}
+
+
+
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

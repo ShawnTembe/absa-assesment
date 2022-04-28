@@ -1,0 +1,19 @@
+article {
+    width: 100%;
+    float: left;
+    clear: both;
+    display: inline-grid;
+    margin-bottom: 1em;
+    background-color: #FFF;
+
+    .error {
+        padding: 1em 0em 1em 2.8em;
+        float: left;
+        clear: right;
+
+        h3 {
+            font-size: 2em;
+            margin-top: 0.5em;
+            }
+    }
+}

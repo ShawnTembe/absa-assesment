@@ -1,0 +1,27 @@
+
+<div class="heading">
+    <h1>Popular Movies</h1>
+</div>
+<div class="main-container">
+    <div *ngIf="moviesFeed">
+        <div class="movies">
+            <h3>Movies</h3>
+            <ngx-spinner bdColor = "rgba(0, 0, 0, 0.8)" size = "medium" color = "#fff" type = "square-jelly-box" [fullScreen] = "true"><p style="color: white" > Loading... </p></ngx-spinner>
+            <div class="">
+              <div class="movie-container"> 
+                <div class="movie" *ngFor="let movies of moviesFeed; index as i;">
+                    <div *ngIf="movies.programType === 'movie' && movies.releaseYear >= 2010">
+                            <div class="movie-card">
+                                <h4 class="movie-card-title">{{movies.index}} {{ movies.title }}</h4>
+                                <img src="{{ movies.images['Poster Art']['url'] }}" width="200" height="250" />
+                                <h5>{{ movies.programType }}</h5>
+                                <p>Released: {{ movies.releaseYear }}</p>
+                                <p>{{ movies.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>           
+    </div>
+</div>  

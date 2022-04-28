@@ -1,0 +1,93 @@
+.footer {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    padding: 60px;
+    background-color: black;
+    width: 100%;
+    clear: both;
+    margin-top:40px;
+    .links {
+        padding: 0em;
+        width: 100%;
+        ul {
+            padding-left: 0em;
+            li {
+                display: inline;
+                list-style: none;
+                color: #FFF;
+                text-decoration: none;
+
+                a {
+                    text-decoration: none;
+                    color: #FFF;
+                    padding-right: .5em;
+                }
+            }
+
+            li:nth-of-type(2n) {
+                display: inline;
+                list-style: none;
+                
+                padding-left: .5em;
+                padding-right: .5em;
+                a {
+                    color: #FFF;
+                    text-decoration: none;
+                }
+            }
+     }
+    }
+    .copyright {
+        color: #FFF;
+        font-size: .75em;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .socials {
+        display: block;
+        clear: both;
+        color: #FFF;
+        width: 100%;
+
+        .social-icons {
+            float: left;
+            clear: right;
+           
+            ul{
+                padding-left: 0em; 
+            li {
+                display: inline;
+                list-style: none;
+                color: #FFF;
+                text-decoration: none;
+                padding-right: .75em;
+                    a {
+                        color: #FFF;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    
+        .app-store {
+            float: right;
+            margin-bottom: 20px;
+            ul {
+                padding-left: 0em;
+                li {
+                    display: inline;
+                    list-style: none;
+                    color: #FFF;
+                    text-decoration: none;
+                    padding-right: .75em;
+                        a {
+                            color: #FFF;
+                            text-decoration: none;
+                        }
+                }
+            }
+        }
+    }
+    
+    
+}

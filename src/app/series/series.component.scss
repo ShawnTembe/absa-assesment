@@ -1,0 +1,48 @@
+.heading {
+    background-color: #333;
+    background-image: linear-gradient(#222, #333, #555);
+    color: #fff;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    h1 {
+        padding: .5em .5em;
+        margin: 0em;
+    }
+
+}
+
+.movies {
+  margin-top: 30px;
+}
+
+.main-container {
+    margin-left: 15px;
+
+    .title{
+        margin-top: 30px;
+    }
+}
+.series-card {
+    float: left;
+    margin-bottom: 30px;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 3px 10px #0003;
+    padding: 15px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 320px;
+    margin-right: 20px;
+
+    .series-card-title {
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 16px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
